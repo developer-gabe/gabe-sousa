@@ -1,18 +1,19 @@
 // Step 1: Import React
 import * as React from 'react'
 import AboutMe from './components/about-me/about-me.component'
+import ImageGrid from './components/image-grid/image-grid.component'
+
+
 
 // Step 2: Define your component
-const IndexPage = () => {
+const Photographer = () => {
   return (
     <main>
-			<AboutMe />
+		<AboutMe />
+		<ImageGrid />
     </main>
   )
 }
 
-// You'll learn about this in the next task, just copy it for now
-export const Head = () => <title>Home Page</title>
-
 // Step 3: Export your component
-export default IndexPage
+export default Photographer

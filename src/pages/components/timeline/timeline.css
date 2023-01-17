@@ -1,0 +1,28 @@
+.timeline {
+	max-width: 800px;
+	margin: auto;
+}
+
+.timeline-entry {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	align-items: center;
+	padding: 2rem;
+	color: #16363a;
+}
+
+.timeline-entry p {
+	line-height: 32px;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: .6px;
+}
+
+h2 {
+	font-size: 2rem;
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+
+h4 {
+	margin-top: .25rem;
+}

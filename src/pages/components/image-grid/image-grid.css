@@ -1,0 +1,28 @@
+.image-grid-container {
+	padding-bottom: 3rem;
+}
+
+.image-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: auto;
+	max-width: 1000px;
+	gap: 1rem;
+}
+
+
+.image-grid-col {
+	width: 300px;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.selected-image {
+	display: block;
+	max-height: 500px;
+	margin: auto;
+	padding: 0 0 2rem 0;
+}
